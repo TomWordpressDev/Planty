@@ -472,7 +472,7 @@ margin-bottom: 3rem;
 
 .separator{
     color: white;
-   width:60.75rem;
+   width:53.73rem;
 height: 0.0625rem; 
 }
 
@@ -483,13 +483,15 @@ height: 0.0625rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;   
-    margin-left: 24.5%;
+    margin-left: 27.5%;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .container-fruits{
-    gap: 1.64rem;
+    justify-content: space-between;
+gap: 20px;
+    
 }
 
 .image-fruit{
@@ -501,12 +503,22 @@ height: 8.02219rem;
 
 .input-fruit{
     display: flex;
-    width: 20px;
-    height: 30px;
+    width: 2.4375rem;
+height: 3.5rem; 
     margin-top: 20px;
-    margin-left: 45%;
+    margin-left: 40%;
     text-align: center;
+    color: #000;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
 }
 
+.block-fruit{
+    gap:1px;
+    padding:0;
+}
 
 
