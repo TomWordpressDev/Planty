@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body * {
+    font-family: 'Syne', sans-serif;
+}
+.entry-title{
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-top: 105px;
+
+}
+
+
+/*** Header ***/
+
+#header {
+    background-color: white;
+    height: 5rem;   
+    width: 100%;
+}
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -16px;
+    color: #000000;
+}
+
+
+
+#menu-principal{ 
+    gap: 50px;
+    display: flex;
+}
+
+#menu-principal a{ 
+    text-decoration: none;
+    color: black;
+}
+#menu-item-228 a{
+    color: white;
+}
+
+#menu-item-228{
+    background: #DC9F96;  
+    color: white;
+    text-align: center;
+    width: 14.75rem;
+    height: 5rem;
+    flex-shrink: 0; 
+    margin-top: -31px;
+    padding-top: 31px;
+}
+
+
+#menu-item-228:hover{
+    background-color: #C02E44;
+    color: white;
+}
+
+.logo{
+    width: 12.5625rem;
+    height: 1.1875rem; 
+    margin-top: 25px;
+    margin-left: 2.31rem;
+}
+
+/**** Footer *****/
+
+#footer{
+    justify-content: center;
+    text-align: center;
+    height: 3.75rem; 
+    padding: 1.25rem 0rem 1.3125rem 0rem; 
+    background-color: white;
+}
+
+#footer a{
+    color: #000;
+    font-family: Syne;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+body{
+    background-color:#ECE2DA;
+}
+
+/** photo section intro **/
+
+
+
+
+/** Section introduction **/
+.section-introduction{
+  
+    height: 35.9375rem;
+    width: 100%;
+    background-image: url("http://localhost/Planty/wp-content/uploads/2023/11/Rectangle-62.png");
+    background-size: cover;
+    
+}
+
+.title-intro{
+    padding-top: 180px;
+    padding-bottom: 80px;
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+.section-introduction p{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+
+/**** Section gouts *****/
+.section-gouts{
+    height: 869px;
+    background: #ECE2DA;  
+    
+}
+
+.section-gouts h2{
+    margin-top: 57px;
+    margin-bottom: 20px;
+    color: #D2776A;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;     
+}
+
+.section-gouts p{
+    margin-bottom: 20px;
+}
+
+
+.wp-element-button:hover{
+    background-color: red;
+    
+}
+
+.image-gout{
+  width: 60%;
+  margin-left: 20%;
+  gap: 20px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+/***** Section Avis ******/
+
+.section-avis{
+    height: 638px;
+    background-image: url("http://localhost/Planty/wp-content/uploads/2023/11/Rectangle-71.png");
+    background-size: cover;
+ 
+}
+
+
+.title-avis{
+    padding-top: 80px;
+    color: #3B8E46;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+  
+}
+
+.avis-client{
+    height: 260px;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    justify-content: center;
+    gap: 160px;
+
+}
+
+.nom-client{
+    color: #3B8E46;
+
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.paragraphe-client{
+    width: 12.25rem; 
+    color: #000;
+    font-family: Syne;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+
+}
+
+.drinks-image{
+    width: 100%;
+
+ 
+}
+.test{
+    width: 100%;
+}
+
+svg{
+    width: 100%;
+}
+
+
+/****** Nous Rencontrer ******/
+
+.post-221 h1{
+    color: #D2776A;
+    text-align: center;
+    font-family: Syne;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-top: 200px;
+}
+.container-intro-nous-rencontrer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 41.8125rem;
+    height: 4.5rem;
+    text-align: center;
+    padding-bottom: 250px;
+}
+.paragraphe-intro-nous-rencontrer{
+    width: 41.8125rem;
+    height: 4.5rem;
+    color: #000;
+    
+    font-family: Syne;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    
+
+
+}
+
+.flower{
+    margin-left: 400px;
+    margin-top: -165px;
+
+
+}
+
+.section-equipe{
+    height: 640px;
+    background-image: url("http://localhost/Planty/wp-content/uploads/2023/11/Rectangle-71.png");
+    background-size: cover;
+    
+    
+
+}
+
+.titre-equipe{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    padding-top: 100px;
+}
+
+.block-equipe{
+    width: 150px;
+   
+}
+
+.container-equipe{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+
+}
+
+.nom-membre{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-top: 10px;
+    margin-bottom: 0.69rem;
+}
+
+.poste-membre{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.branch-equipe{
+    margin-left:250px;
+    width: 11.95069rem;
+    height: 13.69225rem; 
+    height: 130px;
+
+}
+
+
+
+/****** Section Contact ******/
+
+.section-contact{
+    height: 800px;
+
+ 
+}
+
+.titre-contact{
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-top: 4.13rem;
+
+}
+
+.form{
+    margin-top: 100px;
+    font-family: Syne;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#forminator-module-532{
+    width: 360px;
+    height: 500px;
+    margin-bottom: 100px;
+
+    
+
+ 
+}
+
+#forminator-module-532 btn-form{
+    align-items: center;
+    justify-content: center;
+ 
+    display: flex ;
+
+    
+
+ 
+}
+
+#forminator-module-532 input{
+    height: 4.4375rem; 
+    width: 23.9375rem;
+}
+
+#forminator-module-532 textarea{
+    height: 14.8125rem; 
+    width: 23.9375rem;
+}
+
+#forminator-module-532 button{
+    display: flex;
+    width: 12.375rem;
+    height: 3.4375rem;
+    padding: 0.5625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125rem; 
+
+}
+.forminator-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feuilles img {
+    z-index: -1;
+    padding-top: 420px; 
+    margin-left: -90px;
+    position: absolute;
+    background-color: #ECE2DA;
+
+
+}
+
+.drinks img{
+    margin-top: 100px;
+    width: 100%; 
+   
+}
+
+
+
+
+
+/***** Page Commander ******/
+
+.page-id-223 {
+    background: #3B8E46; 
+}
+
+.page-id-223 h1{
+    color: #FFF;
+text-align: center;
+font-family: Syne;
+font-size: 2.375rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase; 
+margin-bottom: 3rem;
+}
+
+.separator{
+    color: white;
+   width:60.75rem;
+height: 0.0625rem; 
+}
+
+.titre-votre-commande{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+    margin-left: 24.5%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.input-fruit{
+    display: flex;
+    width: 20px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+
+
