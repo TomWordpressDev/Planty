@@ -460,20 +460,27 @@ svg{
 
 .page-id-223 h1{
     color: #FFF;
-text-align: center;
-font-family: Syne;
-font-size: 2.375rem;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase; 
-margin-bottom: 3rem;
+    text-align: center;
+    font-family: Syne;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin-bottom: 3rem;
 }
 
 .separator{
     color: white;
-   width:53.73rem;
-height: 0.0625rem; 
+    width:53.73rem;
+    height: 0.0625rem; 
+}
+
+.separator2{
+    margin-top: 75px;
+    color: white;
+    width:53.73rem;
+    height: 0.0625rem; 
 }
 
 .titre-votre-commande{
@@ -490,13 +497,13 @@ height: 0.0625rem;
 
 .container-fruits{
     justify-content: space-between;
-gap: 20px;
+    gap: 20px;
     
 }
 
 .image-fruit{
     width: 12.03331rem;
-height: 8.02219rem; 
+    height: 8.02219rem; 
 }
 
 
@@ -504,16 +511,16 @@ height: 8.02219rem;
 .input-fruit{
     display: flex;
     width: 2.4375rem;
-height: 3.5rem; 
+    height: 3.5rem; 
     margin-top: 20px;
     margin-left: 40%;
     text-align: center;
     color: #000;
-font-family: Inter;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal; 
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
 }
 
 .block-fruit{
@@ -522,3 +529,104 @@ line-height: normal;
 }
 
 
+
+.column1 {
+
+    float: right;
+    width: 50%;
+    padding: 10px;
+ 
+    justify-content: center;
+    align-items: center;
+    padding-left: 27.5%;
+    height: 450px;
+   
+}
+
+
+.column2 {
+
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-left: 48px;
+ 
+    justify-content: center;
+    align-items: center;
+    border-left: 1px white solid;
+    height: 450px;
+   
+}
+
+.container-form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-form label{
+    padding-bottom: 30px;
+    color: white;
+}
+
+.title-formcommander{
+    color: #FFF;
+    font-family: Syne;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-bottom: 30px;
+}
+
+.container-form input{
+    width: 23.9375rem;
+    height: 4.4375rem; 
+    border-radius: 0.4375rem;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.container-form{
+    height: 600px;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner{
+    display: flex;
+    width: 12.375rem;
+    height: 3.4375rem;
+    padding: 0.5625rem 3.5625rem 0.5625rem 3.5rem; 
+    border-radius: 0.3125rem;
+    background: #E0B9B4; 
+    color: #FFF;
+    text-align: center;
+    font-family: Syne;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.3125rem;
+  
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
+    background: #C02E44; 
+}
+
+.bouton-commanderformulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire-commander{
+    margin-bottom: 100px;
+}
