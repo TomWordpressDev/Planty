@@ -43,13 +43,22 @@ body * {
     text-decoration: none;
     color: black;
 }
+
+#menu-principal a:hover{ 
+    color: #000;
+font-family: Syne;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
 #menu-item-228 a{
     color: white;
 }
 
 #menu-item-228{
     background: #DC9F96;  
-    color: white;
+    color: white !important;
     text-align: center;
     width: 14.75rem;
     height: 5rem;
@@ -61,7 +70,12 @@ body * {
 
 #menu-item-228:hover{
     background-color: #C02E44;
-    color: white;
+    color: white !important;
+}
+
+#menu-item-228 a:hover{
+    background-color: #C02E44;
+    color: white !important;
 }
 
 .logo{
