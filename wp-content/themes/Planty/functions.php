@@ -25,20 +25,3 @@ function add_admin_link( $items, $args )
     }
     return $items;
 }
-
-
-
-/*add_filter( 'wp_nav_menu_items','add_admin_link', 10, 2 );
-
-function add_admin_link( $items, $args ) {
-
-    if (is_user_logged_in() && $args->theme_location == 'main-menu') {
-
-        $start_menu_item .= '<li class="menu-item"><a href="'. get_admin_url() .'">Admin</a></li>';
-        $new_items = $start_menu_item . $items;
-    }
-
-    return $new_items;
-
-}
-
