@@ -768,6 +768,14 @@ h2, .title-avis, .title-gouts{
 }
 
 /* Page commander */
+.titre-votre-commande{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 .container-form{
     display: flex;
     flex-direction: column;
@@ -785,6 +793,7 @@ h2, .title-avis, .title-gouts{
     flex-direction: column;
     width: 50%;
     padding: 10px;
+
   
 }
 .column1 input{
