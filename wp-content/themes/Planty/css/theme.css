@@ -769,6 +769,7 @@ h2, .title-avis, .title-gouts{
 /* Page commander */
 .container-form{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     
  
