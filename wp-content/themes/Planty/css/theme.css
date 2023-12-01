@@ -329,8 +329,10 @@ svg{
 }
 
 .flower{
-    margin-left: 400px;
+    margin-left: 25rem;
     margin-top: -165px;
+    z-index: -1;
+    position: absolute;
 
 
 }
@@ -571,13 +573,13 @@ svg{
 
 .column1 {
 
-    float: right;
-    width: 50%;
+
+    width: auto;
     padding: 10px;
- 
+    padding-right: 40px;
     justify-content: center;
     align-items: center;
-    padding-left: 27.5%;
+ 
     height: 450px;
    
 }
@@ -585,10 +587,10 @@ svg{
 
 .column2 {
 
-    float: left;
-    width: 50%;
+    
+    width: auto;
     padding: 10px;
-    padding-left: 48px;
+    padding-left: 2.5rem;
  
     justify-content: center;
     align-items: center;
@@ -607,6 +609,8 @@ svg{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: auto;
     
 }
 
@@ -614,6 +618,8 @@ svg{
     padding-bottom: 30px;
     color: white;
 }
+
+
 
 .title-formcommander{
     color: #FFF;
@@ -729,6 +735,10 @@ svg{
         padding-right: 30px;
     }  
 /* Page Nous Rencontrer */
+.post-221 h1{
+ 
+    font-weight: 400;
+}
 .wp-image-464, .wp-image-520{
     display: none;
 }
@@ -741,10 +751,16 @@ svg{
     height: auto;
   
 }
+.flower{
+    display: none;
+}
 
 
 .paragraphe-intro-nous-rencontrer{
     width: auto;
+    margin-top: -150px;
+    padding: 0;
+   
   
 }
 #post-221{
@@ -781,7 +797,7 @@ h2, .title-avis, .title-gouts{
     flex-direction: column;
 
     justify-content: center;
-    align-items: center;
+   
     height: auto;
     width: auto;
 
@@ -793,6 +809,7 @@ h2, .title-avis, .title-gouts{
     flex-direction: column;
     width: 50%;
     padding: 10px;
+ 
 
   
 }
@@ -808,6 +825,7 @@ h2, .title-avis, .title-gouts{
     padding-left: 10px;
     border-left: none;
     margin-bottom: 50px;
+  
 }
 .column2 input{
     width: auto;
