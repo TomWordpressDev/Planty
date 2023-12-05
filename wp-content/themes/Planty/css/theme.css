@@ -434,6 +434,7 @@ svg{
     font-family: Syne;
     display: flex;
     justify-content: center;
+   
 
     
 }
@@ -683,16 +684,7 @@ svg{
 
 @media  (min-width: 320px) and (max-width: 1020px) {
    
-    figure, span, h1{
-        width: 30%;
-        height: 30%;
-       
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-     
-    
-    }
+   
    
     .image-gout{
         width: 50%;
@@ -801,6 +793,28 @@ h2, .title-avis, .title-gouts{
     height: auto;
     width: auto;
     padding-top: 50%;
+}
+
+.section-equipe{
+    height: 1000px;
+}
+
+/*formulaire de contact */
+#forminator-module-532{
+    margin-top: -30px;
+}
+
+#forminator-module-532 input{
+    width: 100%;
+}
+
+#forminator-module-532 textarea{
+    width: 100%;
+}
+
+/*section equipe */
+.section-equipe figure{
+    padding: 20px;
 }
 
 /* Page commander */
