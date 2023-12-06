@@ -442,11 +442,22 @@ svg{
 #forminator-module-532{
     width: 360px;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+}
 
-    
+.forminator-label{
+    color: #000!important;
+font-family: Syne !important;
+font-size: 1.25rem !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: normal !important; 
+margin-bottom: 0.81rem !important;
 
- 
+}
+
+.forminator-required{
+    display: none;
 }
 
 
@@ -479,7 +490,7 @@ svg{
 
 .feuilles img {
     z-index: -1;
-    padding-top: 420px; 
+    padding-top: 470px; 
     margin-left: -90px;
     position: absolute;
     background-color: #ECE2DA;
