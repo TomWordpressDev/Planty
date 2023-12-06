@@ -684,7 +684,10 @@ svg{
 
 @media  (min-width: 320px) and (max-width: 1020px) {
    
-   
+   #header{
+    display: none;
+      
+   }
    
     .image-gout{
         width: 50%;
@@ -750,6 +753,8 @@ svg{
 /* Page Nous Rencontrer */
 #post-221 h1{
     font-size: 25px;
+    
+
 }
 .wp-image-464, .wp-image-520{
     display: none;
@@ -768,9 +773,10 @@ svg{
 }
 
 
+
 .paragraphe-intro-nous-rencontrer{
     width: auto;
-    margin-top: -150px;
+    margin-top: -120px;
     padding: 0;
    
   
