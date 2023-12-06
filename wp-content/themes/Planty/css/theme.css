@@ -467,6 +467,10 @@ margin-bottom: 0.81rem !important;
     width: 23.9375rem;
 }
 
+#forminator-module-532 textarea {
+    resize: none; 
+}
+
 #forminator-module-532 textarea{
     height: 14.8125rem; 
     width: 23.9375rem;
