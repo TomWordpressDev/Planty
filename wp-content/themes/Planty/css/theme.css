@@ -664,7 +664,7 @@ svg{
 
 /* Responsive */
 
-@media  (min-width: 320px) and (max-width: 1020px) {
+@media  (min-width: 320px) and (max-width: 1024px) {
    
    #header{
     display: none;      
