@@ -659,11 +659,25 @@ svg{
 /* Responsive */
 
 @media  (min-width: 320px) and (max-width: 1024px) {
-   
-    #header{
-        display: none;      
+    .logo{
+        display: none;
     }
-   
+
+    #menu-principal li{
+        width: auto;
+        margin-top: 30px;
+        padding-left: 10px;    
+    }
+
+    #menu{
+        justify-content: center;
+    }
+      
+    #menu-item-228{ 
+       margin-left: -20px;
+       padding-right: 10px !important;
+       margin-top: 0px !important;
+    }
    
     .wp-image-419, .wp-image-428{
         display: none;
@@ -676,12 +690,7 @@ svg{
 
     .wp-block-cover__background.has-background-dim-0.has-background-dim p{
        font-size: 10px;
-    }
-
-    #site-title{
-        display: none;
-    }
-    
+    }    
 
     /* Acceuil */
     .section-introduction{
@@ -752,7 +761,6 @@ svg{
     }
 
     .section-contact .form{
-
         width: auto;
         justify-content: center;
         align-items: center;
