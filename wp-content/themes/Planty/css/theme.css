@@ -6,9 +6,7 @@ body * {
 }
 
 body{
-    background-color:#ECE2DA;
-   
-   
+    background-color:#ECE2DA; 
 }
 
 
@@ -28,8 +26,6 @@ body{
     color: #000000;
 }
 
-
-
 #menu-principal{ 
     gap: 50px;
     display: flex;
@@ -37,8 +33,7 @@ body{
 
 #menu-principal a{ 
     text-decoration: none;
-    color: black;
-    
+    color: black; 
 }
 
 #menu-principal a:hover{ 
@@ -69,7 +64,6 @@ body{
     background-color: #C02E44;
     color: white !important;
 }
-
 
 .logo{
     width: 12.5625rem;
@@ -666,15 +660,11 @@ svg{
 
 @media  (min-width: 320px) and (max-width: 1024px) {
    
-   #header{
-    display: none;      
-   }
-   
-    .image-gout{
-        width: 50%;
-        height: 50%;
+    #header{
+        display: none;      
     }
-
+   
+   
     .wp-image-419, .wp-image-428{
         display: none;
     }   
@@ -691,6 +681,21 @@ svg{
     #site-title{
         display: none;
     }
+    
+
+    /* Acceuil */
+    .section-introduction{
+        height: auto;
+    }
+
+    .wp-image-347{ /*image boisson*/
+        margin: auto;      
+        max-height: 400px;
+    }
+
+    #post-235 .wp-block-group.section-i.is-layout-constrained.wp-block-group-is-layout-constrained .wp-block-group__inner-container{
+        height: 400px;
+    }
 
     .vignette-gout{
         padding: 0;
@@ -703,22 +708,11 @@ svg{
         font-weight: 100;
     }
 
-    /* Acceuil */
-    .section-introduction{
-        height: auto;
+    .image-gout{
+        width: 50%;
+        height: 50%;
     }
 
-    .wp-image-347{ /*image boisson*/
-        margin: auto;
-        
-        max-height: 400px;
-    }
-
-    #post-235 .wp-block-group.section-i.is-layout-constrained.wp-block-group-is-layout-constrained .wp-block-group__inner-container{
-        height: 400px;
-    }
-
-   
     .avis-client{        
         width: 50%;
         height: 50%;  
@@ -866,11 +860,13 @@ svg{
         margin-bottom: 50px;
     
     }
+
     .column2 input{
         width: auto;
         height: 50%;
         
     }
+
     .title-formcommander{
         font-size: 15px;
     }
