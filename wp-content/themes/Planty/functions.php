@@ -19,7 +19,7 @@ function add_admin_link( $items, $args )
             $items = substr($items, $item_pos);
         }
         $items_array[] = $items;
-        array_splice($items_array, 1, 0, '<li class="menu-item"><a href="'. get_admin_url() .'">Admin</a></li>'); // insert custom item after 2nd one
+        array_splice($items_array, 1, 0, '<li class="menu-item"><a href="'. get_admin_url() .'">Admin</a></li>'); 
 
         $items = implode('', $items_array);
     }
