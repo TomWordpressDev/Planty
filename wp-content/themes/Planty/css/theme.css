@@ -706,20 +706,26 @@ svg{
         height: 400px;
     }
 
-    .vignette-gout{
+    .vignette-gout {
         padding: 0;
         margin: 0;
-        height: 200px;     
+           
+    }
+
+    .vignette-gout img{
+        height: 250px !important;    
     }
 
     .texte-gout{
-        font-size: 8px;
-        font-weight: 100;
+        font-size: 20px !important;
+        font-weight: 100;  
     }
 
     .image-gout{
         width: 50%;
         height: 50%;
+        margin-left: 25%;
+        padding: 0;
     }
 
     .avis-client{        
