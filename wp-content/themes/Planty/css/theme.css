@@ -401,8 +401,6 @@ svg{
 
 .section-contact{
     height: 800px;
-
- 
 }
 
 .titre-contact{
@@ -414,6 +412,7 @@ svg{
     font-weight: 700;
     line-height: normal; 
     margin-top: 4.13rem;
+    margin-bottom: -90px;
 }
 
 .form{
@@ -640,6 +639,7 @@ svg{
     font-style: normal;
     font-weight: 400;
     line-height: 2.3125rem; 
+    border: none;  
 }
 
 .wpcf7-form-control.wpcf7-submit.has-spinner:hover{
@@ -810,9 +810,11 @@ svg{
         height: auto;
     }
 
+   
+
     /*formulaire de contact */
     #forminator-module-532{
-        margin-top: -30px;
+        padding-top: -50px;
     }
 
     #forminator-module-532 input{
