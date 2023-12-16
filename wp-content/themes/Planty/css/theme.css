@@ -46,7 +46,7 @@ body{
 }
 
 #menu-item-228 a{
-    color: white;
+    color: white !important;
 }
 
 #menu-item-228{
@@ -63,6 +63,7 @@ body{
 #menu-item-228:hover{
     background-color: #C02E44;
     color: white !important;
+    text-align: center;
 }
 
 .logo{
